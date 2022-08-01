@@ -769,152 +769,195 @@ html {
 
 /*----------------------------------Media queries-------------------------------------*/
 @media screen and (max-width:972px){
-#list4{
-  display: none;
-}
-#list3{
-  display: none;
-}
-#list2{
-  display: none;
-}
-.menu{
-  justify-content: flex-end;
-}
-.torre2{
-  transform: scale(0.8);
-  position: relative;
-  top: 30px;
-}
-}
-@media screen and (max-width:945px){
-.torre2{
-  transform: scale(0.8);
-  position: relative;
-  top: 50px;
-  left: -70px;
-}
-
-
-}
-@media screen and (max-width:859px){
-.nombre-profesion{
-  transform: scale(0.8);
-}
-.worksPag2{
-  transform: scale(0.8);
-}
-.worksPag4{
-  transform: scale(0.8);
-}
-.torre2{
-  transform: scale(0.8);
-  position: relative;
-  top: 30px;
-  left: -200px;
-}
-.menu{
-  justify-content: flex-end;
-}
-}
-@media screen and (max-width:414px){
-
-
-
-
-
-
-
-
-
-#lista5{
-  animation-iteration-count: 0;
+  #list4{
+    display: none;
+  }
+  #list3{
+    display: none;
+  }
+  #list2{
+    display: none;
+  }
+  .menu{
+    justify-content: flex-end;
+  }
+  .torre2{
+    transform: scale(0.8);
+    position: relative;
+    top: 30px;
+  }
+  }
+  @media screen and (max-width:945px){
+  .torre2{
+    transform: scale(0.8);
+    position: relative;
+    top: 50px;
+    left: -70px;
+  }
   
-
-
-}
-.scroll-snap{
-  background-position:65% 0%;
-}
-.menu{
-  justify-content: flex-end;
-}
-
-.scroll3{
-  background-size: cover;
-  background-position:65% 0%;
-}
-
-.scroll2{
-  background-size: cover;
-  background-position:65% 0%;
-}
-
-.scroll4{
-  background-size: cover;
-  background-position:65% 0%;
-}
-.nombre{
   
-  display: none;
-}
-.nombre-profesion{
-  z-index: 1;
-  position: relative;
-  top: -130px;
-  right:80px;
-  transform: scale(0.6);
-
-
-}
-.worksPag2{
-  z-index: 1;
-  position: relative;
-  bottom: 150px;
-  right: 30px;
-  transform: scale(0.6);
-
-
-}
-.worksPag4{
-  z-index: 1;
-  position: relative;
-  bottom: 150px;
-  right: 30px;
-  transform: scale(0.6);
-
-
-}
-
-
-.torre2{
- display: none;
-}
-
-.imagenPag2{
-  display: block;
-  width: 310px;
-  height: 310px;
-  position: relative;
-  top: 150px;
+  }
+  @media screen and (max-width:859px){
+  .nombre-profesion{
+    transform: scale(0.8);
+  }
+  .worksPag2{
+    transform: scale(0.8);
+  }
+  .worksPag4{
+    transform: scale(0.8);
+  }
+  .torre2{
+    transform: scale(0.8);
+    position: relative;
+    top: 18px;
+    left: -200px;
+  }
+  .menu{
+    justify-content: flex-end;
+  }
+  }
+  @media screen and (max-width:414px){
   
-  right: 170px;
-}
-.imagenPag3{
-  display: block;
-  width: 310px;
-  height: 310px;
+  .restaurant{
+  
   position: relative;
-  top: 150px;
-  right: 170px;
-  background-size: cover;
-}
-.imagenPag4{
-  display: block;
-  width: 310px;
-  height: 310px;
+  top:520px;
+  left:170px;
+  
+  }
+  
+  .barra-verde{
+    position: relative;
+    top:530px;
+    left:190px;
+  }
+  
+  .barra-verde2{
+    position: relative;
+    top:530px;
+    left:190px;
+  }
+  
+  .visitepage{
+  
   position: relative;
-  top: 150px;
-  right: 170px;
-}
-}
+  top:520px;
+  left:190px;
+  
+  }
+  
+  .barra-roja{
+    position: relative;
+    top:530px;
+    left:190px;
+  }
+  
+  .barra-roja2{
+    position: relative;
+    top:530px;
+    left:190px;
+  }
+  
+  
+  
+  #lista5{
+    animation-iteration-count: 0;
+    
+  
+  
+  }
+  .scroll-snap{
+    background-position:65% 0%;
+  }
+  .menu{
+    justify-content: flex-end;
+  }
+  
+  .scroll3{
+    background-size: cover;
+    background-position:65% 0%;
+  }
+  
+  .scroll2{
+    background-size: cover;
+    background-position:65% 0%;
+  }
+  
+  .scroll4{
+    background-size: cover;
+    background-position:65% 0%;
+  }
+  .nombre{
+    
+    display: none;
+  }
+  .nombre-profesion{
+    z-index: 1;
+    position: relative;
+    top: -130px;
+    right:80px;
+    transform: scale(0.6);
+  
+  
+  }
+  .worksPag2{
+    z-index: 1;
+    position: relative;
+    bottom: 150px;
+    right: 30px;
+    transform: scale(0.6);
+  
+  
+  }
+  .worksPag4{
+    z-index: 1;
+    position: relative;
+    bottom: 150px;
+    right: 30px;
+    transform: scale(0.6);
+  
+  
+  }
+  
+  
+  .torre2{
+   position: relative;
+   left: -400px;
+  
+  }
+  
+  .imagenPag2{
+    display: block;
+    width: 310px;
+    height: 310px;
+    position: relative;
+    
+    
+    right: 170px;
+  }
+  .imagenPag3{
+    display: block;
+    width: 310px;
+    height: 310px;
+    position: relative;
+    
+    right: 170px;
+    background-size: cover;
+  }
+  .imagenPag4{
+    display: block;
+    width: 310px;
+    height: 310px;
+    position: relative;
+    
+    right: 170px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  }
