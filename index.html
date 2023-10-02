@@ -1,163 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <head>
-      <meta charset="UTF-8" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no,"
-      />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <meta property="og:type" content="website" />
-      <meta
-        property="og:description"
-        content="manucastelnovo PORTFOLIO / Web designer / Markup engineer"
-      />
-      <meta name="twitter:site" content="@manucastelnovo" />
-      <meta property="og:site_name" content="manucastelnovo PORTFOLIO" />
-      <meta property="og:locale" content="py" />
-      <meta property="og:url" content="" />
-      <meta
-        property="og:title"
-        content="About Me | MANU CASTELNOVO PORTFOLIO"
-      />
-      <link rel="stylesheet" href="/css/normalize.css" />
-      <link rel="stylesheet" href="css/estilos.css" />
 
-      <title>About Me | MANU CASTELNOVO PORTFOLIO</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no," />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="manucastelnovo PORTFOLIO / Web designer / Markup engineer" />
+    <meta name="twitter:site" content="@manucastelnovo" />
+    <meta property="og:site_name" content="manucastelnovo PORTFOLIO" />
+    <meta property="og:locale" content="py" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="About Me | MANU CASTELNOVO PORTFOLIO" />
+    <link rel="stylesheet" href="/assets/normalize.css" />
+    <link rel="stylesheet" href="assets/estilos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>About Me | MANU CASTELNOVO PORTFOLIO</title>
   </head>
 
-  <body>
-    <div class="scroll-snap" id="snap">
-      <div class="scroll" id="scrollOne">
-        <!------------------------- PAGINA 1----------------------------->
-        <div class="home">
-          <!------------------------- NAV----------------------------->
-          <header class="header">
-            <a href="./" class="nombre">manu c.-</a>
-            <nav class="menu">
-              <a
-                href="https://github.com/manucastelnovo"
-                class="pinterestlogo"
-                id="list4"
-              >
-                <img src="pinterestlogo.png" alt="" />
-              </a>
-              <a
-                href="https://linkedin.com/in/manu-castelnovo"
-                class="linkedlogo"
-                id="list3"
-              >
-                <img src="linkedin.png" alt="linkedin-logo" />
-              </a>
-              <a
-                href="mailto:manucastelnovo.w@gmail.com?Subject=Generado%20desde%20el%20portafollio%20web"
-                class="gmail"
-                id="list2"
-                >Gmail</a
-              >
 
-              <a href="./" class="menu-line" id="list1">
-                <img src="Line 1.png" alt="menu-line" />
-                <img src="Line 1.png" alt="menu-line" />
-                <img src="Line 1.png" alt="menu-line2" />
-              </a>
-            </nav>
-          </header>
+<body class="bg-[#2A3740]">
+  <header class="flex fixed justify-between p-8 h-26 w-full z-2">
 
-          <!------------------------- PRESENTACION----------------------------->
-          <div class="body-pag1">
-            <div class="scrolldown">
-              <span class="barra-blanca-scroll-stay" id="barra-pag1"></span>
-              <span class="barra-blanca-scroll" id="barra-pag2"></span>
-              <span class="barra-blanca-scroll" id="barra-pag3"></span>
-              <span class="barra-blanca-scroll" id="barra-pag4"></span>
-            </div>
+    <h1 class="text-white flex items-center">
+      <p id="custom-title" class="text-black"></p>
+    </h1>
+    <nav class="flex gap-4 md:gap-8 invert">
+      <a href="https://github.com/manucastelnovo" id="list4" class="w-8">
+        <img src="./assets/img/github-logo.png" alt="github">
+      </a>
+      <a href="https://linkedin.com/in/manu-castelnovo" id="list3" class="w-8">
+        <img src="./assets/img/linkedin.png" alt="linkedin">
+      </a>
+      <a href="" id="list2" class="w-8 text-white flex items-center">
+        <p>GMAIL</p>
+      </a>
+    </nav>
+  </header>
+  <main  class="h-screen overflow-y-scroll snap snap-y snap-mandatory">
 
-            <h1 class="nombre-profesion" id="lista5">
-              <p id="imagenPag1id">manuel castelnovo</p>
-              <p class="portafolio">PORTAFOLIO</p>
-              <span class="barra-verde"></span>
-              <span class="barra-verde2"></span>
-              <p class="full-stack">Web designer / Front-end.</p>
-            </h1>
+    <!-- pantalla 1 -->
+    <section class="bg-[url('/assets/img/iglesia.jpg')] bg-no-repeat bg-right-bottom bg-white h-screen flex items-center snap-start p-4" id="scrollOne"
+      style="scroll-snap-align: center;">
+     
+      <h1 class="nombre-profesion" id="lista5">
+        <p id="imagenPag1id">manuel castelnovo</p>
+        <p class="portafolio">PORTAFOLIO</p>
+        <span class="barra-verde"></span>
+        <span class="barra-verde2"></span>
+        <p class="full-stack">Web designer / Front-end.</p>
+      </h1>
 
-            <div class="torre" id="lista6">
-              <img src="torre2.png" alt="torre" class="torre2" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <!------------------------- PAGINA 2----------------------------->
-      <div class="scroll3">
-        <div class="scrolldown">
-          <span class="barra-blanca-scroll-stay"></span>
-          <span class="barra-blanca-scroll"></span>
-          <span class="barra-blanca-scroll"></span>
-          <span class="barra-blanca-scroll"></span>
-        </div>
-        <h1 class="worksPag2">
-          <p id="Ditalia">Skills</p>
-          <p class="restaurant">Technology</p>
-          <span class="barra-verde"></span>
-          <span class="barra-verde2"></span>
-        </h1>
-        <div class="torre">
-          <div class="imagenPag2" id="imagenPag2id"></div>
-        </div>
+    </section>
 
-        <div class="works" href="works-scroll"></div>
-      </div>
-      <!------------------------- PAGINA 3----------------------------->
-      <div class="scroll4">
-        <div class="scrolldown">
-          <span class="barra-blanca-scroll-stay"></span>
-          <span class="barra-blanca-scroll"></span>
-          <span class="barra-blanca-scroll"></span>
-          <span class="barra-blanca-scroll"></span>
-        </div>
-        <h1 class="worksPag2">
-          <p id="Ditalia"></p>
-          <p class="visitpage3">D'italia</p>
+    <!-- pantalla 2 -->
 
-          <a href="https://manucastelnovo.github.io/leo/" class="visitepage"
-            >Visit page</a
-          >
+    <section class="bg-[url('/assets/img/catedral.jpg')] bg-no-repeat bg-[left_bottom_-10rem] bg-white h-screen flex items-center justify-center snap-start p-4">
+      
+        <h1 class="relative bottom-[300px] right-[200px] text-6xl">Works</h1>
 
-          <span class="barra-roja"></span>
-          <span class="barra-roja2"></span>
-        </h1>
-        <div class="torre">
-          <div class="imagenPag3" id="imagenPag3id"></div>
-        </div>
+      
+      <div class="w-[1000px]">
 
-        <div class="works" href="works-scroll"></div>
-      </div>
-      <!------------------------- PAGINA 4----------------------------->
-      <div class="scroll2">
-        <div class="scrolldown">
-          <span class="barra-blanca-scroll-stay"></span>
-          <span class="barra-blanca-scroll"></span>
-          <span class="barra-blanca-scroll"></span>
-          <span class="barra-blanca-scroll"></span>
-        </div>
-        <h1 class="worksPag4">
-          <p id="Ditalia">Contact</p>
-          <a
-            href="mailto:manucastelnovo.w@gmail.com?Subject=Generado%20desde%20el%20portafollio%20web"
-            class="visitepage"
-            >write me!</a
-          >
-          <span class="barra-roja"></span>
-          <span class="barra-roja2"></span>
-          <button id="visitDitalia"></button>
-        </h1>
-        <div class="torre"></div>
+      
+        <div
+  id="carouselExampleCaptions"
+  class="relative"
+  data-te-carousel-init
+  data-te-ride="carousel">
+  
 
-        <div class="works" href="works-scroll"></div>
+  <div class="flex justify-between flex-row">
+    
+  <!--Carousel controls - prev item-->
+  <button
+    class=" invert bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-te-target="#carouselExampleCaptions"
+    data-te-slide="prev">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</span
+    >
+  </button>
+  <!--Carousel items-->
+  <div
+    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    <!--First item-->
+    <div
+      class="relative float-left -mr-[100%] w-full duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-active
+      data-te-carousel-item
+      style="backface-visibility: hidden">
+      <img
+        src="/assets/img/advanced.png"
+        class="block h-[500px]"
+        alt="..." />
+      <div
+        class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+        <a href="https://play.google.com/store/search?q=morfit&c=apps" class="text-[#9AD2D9] text-3xl underline">Download here</a>
       </div>
     </div>
-  </body>
-  <script src="flow.js"></script>
+    <!--Second item-->
+    <div
+      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+      data-te-carousel-item
+      style="backface-visibility: hidden">
+      <img
+        src="/assets/img/morfit.png"
+        class="block h-[500px]"
+        alt="..." />
+      <div
+        class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+        <a href="https://play.google.com/store/apps/details?id=com.advanced.ridr&pli=1" class="text-[#B3F285] text-3xl underline">Download here</a>
+        
+      </div>
+    </div>
+
+  
+  
+
+
+</div>
+<!--Carousel controls - next item-->
+<button
+class="invert bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+type="button"
+data-te-target="#carouselExampleCaptions"
+data-te-slide="next">
+<span class="inline-block h-8 w-8">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.5"
+    stroke="currentColor"
+    class="h-6 w-6">
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+  </svg>
+</span>
+<span
+  class="!absolute invert !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+  >Next</span
+>
+</button>
+  
+        </div>
+      
+      </div>
+
+
+    </section>
+
+    <!-- pantalla 3 -->
+
+    <section class="bg-[url('/assets/img/bg-three.jpg')] bg-contain h-screen flex items-center justify-center snap-start p-4" >
+
+   a
+    </section>
+
+    <!-- pantalla 4 -->
+
+    <section class="bg-[url('/assets/img/bg-four.jpg')] bg-contain h-screen flex items-center justify-center snap-start p-4">
+
+    a
+    </section>
+  
+  
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+  <script src="jquery.snow.js"></script>
+  <script>
+    $(document).ready( function(){
+        $.fn.snow();
+    });
+    </script>
+</body>
+<script src="flow.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
 </html>

@@ -9,6 +9,7 @@ const aboutMe = document.getElementById('imagenPag3id');
 const contactMe = document.getElementById('imagenPag4id');
 const snapScroll = document.getElementById('snap');
 const presentacion2 = document.getElementsByClassName('worksPag2');
+const title = document.getElementById('custome-title');
 
 
 //------ Items for class change----------------------
@@ -32,6 +33,7 @@ const cargarAnimacion = (entradas, observador) => {
             console.log('Animacion 1 ON');
             barra2.classList.remove('barra-blanca-scroll-stay');
             barra1.classList.add('barra-blanca-scroll-stay');
+           title.innerText = 'works'
 
         }
 
@@ -43,12 +45,14 @@ const cargarAnimacion = (entradas, observador) => {
             barra1.classList.add('barra-blanca-scroll');
             presentacion2.classList.remove('worksPag2');
             
+            
 
         } if (entrada.isIntersecting && entrada.target.id == 'imagenPag3id') {
             console.log('Animacion 3 ON');
             barra2.classList.remove('barra-blanca-scroll-stay');
             barra4.classList.remove('barra-blanca-scroll-stay');
             barra3.classList.add('barra-blanca-scroll-stay');
+           
             
         } if (entrada.isIntersecting && entrada.target.id == 'imagenPag4id') {
             console.log('Animacion 4 ON');
@@ -68,6 +72,9 @@ observador.observe(home);
 observador.observe(works);
 observador.observe(aboutMe);
 observador.observe(contactMe);
+
+
+
 
 
 
