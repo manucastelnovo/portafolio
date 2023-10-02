@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no," />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="manucastelnovo PORTFOLIO / Web designer / Markup engineer" />
-    <meta name="twitter:site" content="@manucastelnovo" />
-    <meta property="og:site_name" content="manucastelnovo PORTFOLIO" />
-    <meta property="og:locale" content="py" />
-    <meta property="og:url" content="" />
-    <meta property="og:title" content="About Me | MANU CASTELNOVO PORTFOLIO" />
-    <link rel="stylesheet" href="/assets/normalize.css" />
-    <link rel="stylesheet" href="assets/estilos.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>About Me | MANU CASTELNOVO PORTFOLIO</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no," />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="manucastelnovo PORTFOLIO / Web designer / Markup engineer" />
+  <meta name="twitter:site" content="@manucastelnovo" />
+  <meta property="og:site_name" content="manucastelnovo PORTFOLIO" />
+  <meta property="og:locale" content="py" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="About Me | MANU CASTELNOVO PORTFOLIO" />
+  <link rel="stylesheet" href="/assets/normalize.css" />
+  <link rel="stylesheet" href="assets/estilos.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
+  <title>About Me | MANU CASTELNOVO PORTFOLIO</title>
+</head>
 
 
 <body class="bg-[#2A3740]">
@@ -34,16 +38,17 @@
         <img src="./assets/img/linkedin.png" alt="linkedin">
       </a>
       <a href="" id="list2" class="w-8 text-white flex items-center">
-        <p>GMAIL</p>
+        <p class="font-fredericka">GMAIL</p>
       </a>
     </nav>
   </header>
-  <main  class="h-screen overflow-y-scroll snap snap-y snap-mandatory">
+  <main class="h-screen overflow-y-scroll snap snap-y snap-mandatory">
 
     <!-- pantalla 1 -->
-    <section class="bg-[url('/assets/img/iglesia.jpg')] bg-no-repeat bg-right-bottom bg-white h-screen flex items-center snap-start p-4" id="scrollOne"
-      style="scroll-snap-align: center;">
-     
+    <section
+      class="bg-[url('/assets/img/iglesia.jpg')] bg-no-repeat bg-right-bottom bg-white h-screen flex items-center snap-start p-4"
+      id="scrollOne" style="scroll-snap-align: center;">
+
       <h1 class="nombre-profesion" id="lista5">
         <p id="imagenPag1id">manuel castelnovo</p>
         <p class="portafolio">PORTAFOLIO</p>
@@ -56,143 +61,117 @@
 
     <!-- pantalla 2 -->
 
-    <section class="bg-[url('/assets/img/catedral.jpg')] bg-no-repeat bg-[left_bottom_-10rem] bg-white h-screen flex items-center justify-center snap-start p-4">
-      
-        <h1 class="relative bottom-[300px] right-[200px] text-6xl">Works</h1>
+    <section
+      class="bg-[url('/assets/img/catedral.jpg')] bg-no-repeat bg-[left_bottom_-10rem] bg-white h-screen flex items-center justify-center snap-start p-4">
 
-      
+      <h1 class="relative bottom-[300px] right-[200px] text-6xl font-fredericka">Works</h1>
+
+
       <div class="w-[1000px]">
 
-      
-        <div
-  id="carouselExampleCaptions"
-  class="relative"
-  data-te-carousel-init
-  data-te-ride="carousel">
-  
 
-  <div class="flex justify-between flex-row">
-    
-  <!--Carousel controls - prev item-->
-  <button
-    class=" invert bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-    type="button"
-    data-te-target="#carouselExampleCaptions"
-    data-te-slide="prev">
-    <span class="inline-block h-8 w-8">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        class="h-6 w-6">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M15.75 19.5L8.25 12l7.5-7.5" />
-      </svg>
-    </span>
-    <span
-      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-      >Previous</span
-    >
-  </button>
-  <!--Carousel items-->
-  <div
-    class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
-    <!--First item-->
-    <div
-      class="relative float-left -mr-[100%] w-full duration-[600ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-active
-      data-te-carousel-item
-      style="backface-visibility: hidden">
-      <img
-        src="/assets/img/advanced.png"
-        class="block h-[500px]"
-        alt="..." />
-      <div
-        class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <a href="https://play.google.com/store/search?q=morfit&c=apps" class="text-[#9AD2D9] text-3xl underline">Download here</a>
-      </div>
-    </div>
-    <!--Second item-->
-    <div
-      class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-      data-te-carousel-item
-      style="backface-visibility: hidden">
-      <img
-        src="/assets/img/morfit.png"
-        class="block h-[500px]"
-        alt="..." />
-      <div
-        class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-        <a href="https://play.google.com/store/apps/details?id=com.advanced.ridr&pli=1" class="text-[#B3F285] text-3xl underline">Download here</a>
-        
-      </div>
-    </div>
-
-  
-  
+        <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-ride="carousel">
 
 
-</div>
-<!--Carousel controls - next item-->
-<button
-class="invert bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-type="button"
-data-te-target="#carouselExampleCaptions"
-data-te-slide="next">
-<span class="inline-block h-8 w-8">
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke-width="1.5"
-    stroke="currentColor"
-    class="h-6 w-6">
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-  </svg>
-</span>
-<span
-  class="!absolute invert !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
-  >Next</span
->
-</button>
-  
+          <div class="flex justify-between flex-row">
+
+            <!--Carousel controls - prev item-->
+            <button
+              class=" invert bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+              type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
+              <span class="inline-block h-8 w-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                </svg>
+              </span>
+              <span
+                class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+            </button>
+            <!--Carousel items-->
+            <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+              <!--First item-->
+              <div
+                class="relative float-left -mr-[100%] w-full duration-[600ms] ease-in-out motion-reduce:transition-none"
+                data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+                <img src="/assets/img/advanced.png" class="block h-[500px]" alt="..." />
+                <div class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                  <a href="https://play.google.com/store/search?q=morfit&c=apps"
+                    class="text-[#9AD2D9] text-3xl underline font-fredericka">Download here</a>
+                </div>
+              </div>
+              <!--Second item-->
+              <div
+                class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                data-te-carousel-item style="backface-visibility: hidden">
+                <img src="/assets/img/morfit.png" class="block h-[500px]" alt="..." />
+                <div class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
+                  <a href="https://play.google.com/store/apps/details?id=com.advanced.ridr&pli=1"
+                    class="text-[#B3F285] text-3xl underline font-fredericka">Download here</a>
+
+                </div>
+              </div>
+
+
+
+
+
+            </div>
+            <!--Carousel controls - next item-->
+            <button
+              class="invert bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+              type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
+              <span class="inline-block h-8 w-8">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+              </span>
+              <span
+                class="!absolute invert !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+            </button>
+
+          </div>
+
         </div>
-      
-      </div>
 
 
     </section>
 
     <!-- pantalla 3 -->
 
-    <section class="bg-[url('/assets/img/bg-three.jpg')] bg-contain h-screen flex items-center justify-center snap-start p-4" >
+    <section class="bg-[url('/assets/img/arbol.jpg')] bg-right-bottom bg-no-repeat  bg-white h-screen flex items-center justify-start snap-start p-4">
 
-   a
+
+      <h1 class="relative bottom-[300px] left-[150px] text-6xl font-fredericka">About Me </h1>
+
+      
+    
+      
+      
+       
+      <div class="w-[1000px]">
+        <p class="text-3xl font-great z-3 flex flex-col">I'm Manuel Castelnovo, a mobile developer with 2 years of experience.  I'm currently pursuing a Bachelor's degree in Computer Science at the National University of Asunción, <br> and I'm currently working at a software factory. My focus is on creating effective and enriching mobile applications. I'm committed to continuing to grow in this field and contributing to the success of future projects.
+        
+          
+          <a href="/assets/doc/manuel_castelnovo_CV-1.pdf" download
+                    class="text-3xl underline font-fredericka text-end mt-8">Download CV</a>
+        </p>
+      </div>
+
+
     </section>
 
     <!-- pantalla 4 -->
 
-    <section class="bg-[url('/assets/img/bg-four.jpg')] bg-contain h-screen flex items-center justify-center snap-start p-4">
-
-    a
-    </section>
-  
-  
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
   <script src="jquery.snow.js"></script>
   <script>
-    $(document).ready( function(){
-        $.fn.snow();
+    $(document).ready(function () {
+      $.fn.snow();
     });
-    </script>
+  </script>
 </body>
 <script src="flow.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>

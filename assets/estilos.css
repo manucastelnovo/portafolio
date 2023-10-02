@@ -123,9 +123,16 @@ html {
   padding-left: 30px;
   color: var(--colorprimario);
   font-size: 4.5rem;
-  font-family: Futura Ligth font;
+  font-family: 'Fredericka the Great', cursive;
   letter-spacing: 0.09em;
   text-shadow: 1px 1px #252e36;
+}
+
+.font-fredericka{
+  font-family: 'Fredericka the Great', cursive;
+}
+.font-great{
+  font-family: 'Great Vibes', cursive;
 }
 
 .barra-verde {
