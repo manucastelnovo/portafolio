@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0, user-scalable=no," />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="manucastelnovo PORTFOLIO / Web designer / Markup engineer" />
@@ -42,7 +42,7 @@
       </a>
     </nav>
   </header>
-  <main class="h-screen overflow-y-scroll snap snap-y snap-mandatory">
+  <main class="h-screen">
 
     <!-- pantalla 1 -->
     <section
@@ -62,9 +62,9 @@
     <!-- pantalla 2 -->
 
     <section
-      class="bg-[url('/assets/img/catedral.jpg')] bg-no-repeat bg-[left_bottom_-10rem] bg-white h-screen flex items-center justify-center snap-start p-4">
+      class="bg-[url('/assets/img/catedral.jpg')] bg-no-repeat bg-[left_bottom_-10rem] bg-white h-screen flex items-center flex-col   justify-center snap-start p-4">
 
-      <h1 class="relative bottom-[300px] right-[200px] text-6xl font-fredericka">Works</h1>
+      <h1 class="w-[100vw] px-32 mb-6 text-6xl font-fredericka ">Works</h1>
 
 
       <div class="w-[1000px]">
@@ -89,24 +89,25 @@
                 class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
             </button>
             <!--Carousel items-->
-            <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+            <div class="relative w-full grayscale overflow-hidden after:clear-both after:block after:content-['']">
               <!--First item-->
               <div
                 class="relative float-left -mr-[100%] w-full duration-[600ms] ease-in-out motion-reduce:transition-none"
                 data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
                 <img src="/assets/img/advanced.png" class="block h-[500px]" alt="..." />
                 <div class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                  <a href="https://play.google.com/store/search?q=morfit&c=apps"
+                  <a href="https://play.google.com/store/apps/details?id=com.advanced.ridr&pli=1"
                     class="text-[#9AD2D9] text-3xl underline font-fredericka">Download here</a>
                 </div>
               </div>
+              
               <!--Second item-->
               <div
                 class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
                 data-te-carousel-item style="backface-visibility: hidden">
                 <img src="/assets/img/morfit.png" class="block h-[500px]" alt="..." />
                 <div class="inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                  <a href="https://play.google.com/store/apps/details?id=com.advanced.ridr&pli=1"
+                  <a href="https://play.google.com/store/search?q=morfit&c=apps"
                     class="text-[#B3F285] text-3xl underline font-fredericka">Download here</a>
 
                 </div>
@@ -140,10 +141,10 @@
 
     <!-- pantalla 3 -->
 
-    <section class="bg-[url('/assets/img/arbol.jpg')] bg-right-bottom bg-no-repeat  bg-white h-screen flex items-center justify-start snap-start p-4">
+    <section class="bg-[url('/assets/img/arbol.jpg')] bg-right-bottom bg-no-repeat flex-col items-center justify-center bg-white h-screen flex items-center justify-start snap-start p-4">
 
 
-      <h1 class="relative bottom-[300px] left-[150px] text-6xl font-fredericka">About Me </h1>
+      <h1 class="text-6xl font-fredericka mb-6 w-[100vw] px-32 mb-24">About Me </h1>
 
       
     
@@ -151,11 +152,11 @@
       
        
       <div class="w-[1000px]">
-        <p class="text-3xl font-great z-3 flex flex-col">I'm Manuel Castelnovo, a mobile developer with 2 years of experience.  I'm currently pursuing a Bachelor's degree in Computer Science at the National University of Asunción, <br> and I'm currently working at a software factory. My focus is on creating effective and enriching mobile applications. I'm committed to continuing to grow in this field and contributing to the success of future projects.
+        <p class="text-3xl font-great z-3 flex flex-col mt-24 p-6 ">I'm Manuel Castelnovo, a mobile developer with 2 years of experience.  I'm currently pursuing a Bachelor's degree in Computer Science at the National University of Asunción, <br> and I'm currently working at a software factory. My focus is on creating effective and enriching mobile applications. I'm committed to continuing to grow in this field and contributing to the success of future projects.
         
           
           <a href="/assets/doc/manuel_castelnovo_CV-1.pdf" download
-                    class="text-3xl underline font-fredericka text-end mt-8">Download CV</a>
+                    class="text-3xl underline font-fredericka text-end mt-12">Download CV</a>
         </p>
       </div>
 
